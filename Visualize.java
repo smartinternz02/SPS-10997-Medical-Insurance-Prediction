@@ -14,7 +14,7 @@ public class Visualize {
 	public static void main(String args[]) {
 		System.out.println("data analytics");
 		try {
-		Table insurance_data=Table.read().csv("C:\\Users\\sreej\\Downloads\\dataset2.csv");
+		Table insurance_data=Table.read().csv("C:\Users\Srilasya Punna\OneDrive\Desktop\\dataset2.csv");
 		System.out.println(insurance_data.shape());
 		System.out.println(insurance_data.structure());
 		System.out.println(insurance_data.summary());
